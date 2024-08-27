@@ -2,6 +2,9 @@ package 문자열;
 
 import java.util.Scanner;
 
+/**
+ * 문자 찾기
+ */
 public class Problem001 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in).useDelimiter("\\n");
