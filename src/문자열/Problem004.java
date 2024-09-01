@@ -2,6 +2,9 @@ package 문자열;
 
 import java.util.Scanner;
 
+/**
+ * 단어 뒤집기
+ */
 public class Problem004 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

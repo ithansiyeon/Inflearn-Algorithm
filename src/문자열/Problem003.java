@@ -2,6 +2,9 @@ package 문자열;
 
 import java.util.Scanner;
 
+/**
+ * 문장 속 단어
+ */
 public class Problem003 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
