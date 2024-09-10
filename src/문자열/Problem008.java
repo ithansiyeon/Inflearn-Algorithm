@@ -12,13 +12,7 @@ public class Problem008 {
 	}
 
 	public static String solution(String str) {
-		char[] charArray = str.toLowerCase().toCharArray();
-		String answer = "";
-		for (char c : charArray) {
-			if (c >= 97 && c <= 122) {
-				answer += c;
-			}
-		}
-		return answer.equals(new StringBuilder(answer).reverse().toString()) ? "YES" : "NO";
+		String s = str.toUpperCase().replaceAll("[^A-Z]", "");
+		return s.equals(new StringBuilder(s).reverse().toString()) ? "YES" : "NO";
 	}
 }
