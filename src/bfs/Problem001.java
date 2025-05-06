@@ -41,5 +41,4 @@ public class Problem001 {
 		}
 		return -1;
 	}
-
 }
