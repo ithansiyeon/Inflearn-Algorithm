@@ -18,7 +18,6 @@ public class Problem005 {
 	}
 
 	public static int solution(int n, int r) {
-		int l = 0;
 		return dfs(n, r);
 	}
 
